@@ -1,9 +1,11 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-  }
-  
+body {
+    font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	color: #edf0f1;
+    background-color: #24252a;
+}
+
+
   header {
 	display: flex;
 	justify-content: space-between;
@@ -165,4 +167,16 @@
   .heading{
 	  position: absolute;
 	  align-self: center;
+  }
+
+  h1{
+	  align-content: center;
+	  margin: auto;
+	  width: auto;
+	  text-align: center;
+  }
+
+  p{
+		text-align: center;
+		align-content: center;
   }
