@@ -161,4 +161,8 @@
 	margin-right: 25px;
 	margin-top: 25px;
   }
-  
+
+  .heading{
+	  position: absolute;
+	  align-self: center;
+  }
