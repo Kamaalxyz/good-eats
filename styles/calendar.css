@@ -205,12 +205,12 @@ body {
   height: 10px;
   }
   #weekdays {
-	width: 100%;
+	width: 780px;
 	display: flex;
 	color: #247BA0;
   }
   #weekdays div {
-	width: 100px;
+	width: 180px;
 	padding: 10px;
   }
   #calendar {
