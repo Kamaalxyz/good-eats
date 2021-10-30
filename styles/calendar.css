@@ -175,29 +175,30 @@ body {
 	display: flex;
 	margin-top: 50px;
 	justify-content: center;
-	background-color: #FFFCFF;
+	background-color: #FFFCFF; /* pages background colour*/
+
   }
   button {
 	width: 75px;
 	cursor: pointer;
-	box-shadow: 0px 0px 2px gray;
+	box-shadow: 0px 0px 2px #5260A2; /*back and next box border shadow*/
 	border: none;
 	outline: none;
 	padding: 5px;
 	border-radius: 5px;
-	color: white;
+	color: white; /* back and next text colour*/
   }
   
   #header {
 	padding: 10px;
-	color: #d36c6c;
+	color: #d36c6c; /* Month and year colour*/
 	font-size: 26px;
 	font-family: sans-serif;
 	display: flex;
 	justify-content: space-between;
   }
   #header button {
-	background-color:#92a1d1;
+	background-color:#92a1d1; /*back and next button bacground colour*/
   }
   #container {
 	margin-top: 20px;
@@ -207,7 +208,7 @@ body {
   #weekdays {
 	width: 780px;
 	display: flex;
-	color: #247BA0;
+	color: #247BA0; /*weekdays label colour*/
   }
   #weekdays div {
 	width: 180px;
@@ -225,40 +226,40 @@ body {
 	height: 100px;
 	cursor: pointer;
 	box-sizing: border-box;
-	background-color: white;
+	background-color: white; /*day box bacground colour*/
 	margin: 5px;
-	box-shadow: 0px 0px 3px #CBD4C2;
+	box-shadow: 0px 0px 3px #CBD4C2; /*day box border shadow colour*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
   }
   .day:hover {
-	background-color: #e8faed;
+	background-color: #e8faed;/* day hover box colour*/
   }
   
   .day + #currentDay {
-	background-color:#e8f4fa;
+	background-color:#e8f4fa; /*current day box colour*/
   }
   .event {
 	font-size: 10px;
 	padding: 3px;
-	background-color: #58bae4;
-	color: white;
+	background-color: #58bae4; /*event box bacground colour*/
+	color: white; /*event text colour*/
 	border-radius: 5px;
 	max-height: 55px;
 	overflow: hidden;
   }
   .padding {
 	cursor: default !important;
-	background-color: #FFFCFF !important;
+	background-color: #FFFCFF !important; /*empety day slot colours*/
 	box-shadow: none !important;
   }
   #newEventModal, #deleteEventModal {
 	display: none;
 	z-index: 20;
 	padding: 25px;
-	background-color: #e8f4fa;
-	box-shadow: 0px 0px 3px black;
+	background-color: white; /* new event adder box bacground color*/
+	box-shadow: 0px 0px 3px black;  /* new event adder box shadow color*/
 	border-radius: 5px;
 	width: 350px;
 	top: 100px;
@@ -274,16 +275,16 @@ body {
 	border-radius: 3px;
 	outline: none;
 	border: none;
-	box-shadow: 0px 0px 3px gray;
+	box-shadow: 0px 0px 3px gray;/*event title input box border shadow*/
   }
   #eventTitleInput.error {
-	border: 2px solid red;
+	border: 2px solid red; /* event title no input border colour error*/
   }
   #cancelButton, #deleteButton {
 	background-color: #d36c6c;
   }
   #saveButton, #closeButton {
-	background-color: #92a1d1;
+	background-color: #22b64e;
   }
   #eventText {
 	font-size: 14px;
